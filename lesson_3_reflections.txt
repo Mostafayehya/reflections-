@@ -1,5 +1,13 @@
+*********************************************************************************************
 When would you want to use a remote repository rather than keeping all your work local?
-
+*********************************************************************************************
 >when cooperating with other people to do some project.
+
+************************************************************************************************************************************
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+************************************************************************************************************************************
+>Being aware of pull changes lead to less mistakes,
+>not to add uncompleted changes that doesn't make any sense to you . 
+>every time you make a pull , means you changed something and this means you have to commit this change first , and automatic prompting   for the user to enter the commit message will be inefficient and surprising in a bad way . 
 
 
