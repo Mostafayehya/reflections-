@@ -1,0 +1,46 @@
+*****************************************************************************************
+How can you use the staging area to make sure you have one commit per logical change?
+*****************************************************************************************
+
+after making a logical change in the code adding it to the staging area then commiting it 
+will help in organizing the code. 
+
+
+*****************************************************************************************
+What are some situations when branches would be helpful in keeping your history organized?
+ How would branches help?
+*****************************************************************************************
+
+it gives name or multiple names to a given commit so it is easy to know the changes 
+made to a certain state of the code 
+" change may be you want to write your app in spain or something " 
+so it helps you to tarck the states of your code in  non linear situations.
+
+say i want to write a new feature for my app then i make a branch of the current > 
+version of the app and work on it and if this feature proved to be vaild , i will 
+merge the master branch with the branch i worked on . 
+
+**************************************************************************************
+How do the diagrams help you visualize the branch structure?
+**************************************************************************************
+>it shows the reachability of each branch "what are the parent nodes "commits" of it " 
+ and it helps to have an overview of all the current state and the history of changes
+ over the whole project . 
+
+***************************************************************************************
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+*****************************************************************************************
+1-the deleted line in one of the branches will be deleted in the final file. 
+2-the added lines of both files will be added to the final file. 
+
+*****************************************************************************************
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+*****************************************************************************************
+>automatic cons : you aren't sure what is the output file contains and it might contain '
+ many conflicts 
+>manually : you tested each of the two branches you want to merge so you are sure
+
+		 
+
+
+
